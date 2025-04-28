@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "azure-blob-lister"
+version = "0.1.0"
+authors = ["sjoz", "sjoz@example.com"]
+description = "List and filter Azure Blob Storage blobs by prefix and keywords."
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+azure-identity=">=1.20.0,<2.0.0"
+azure-storage-blob=">=12.24.1,<13.0.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
